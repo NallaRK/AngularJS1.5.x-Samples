@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Controller Scope</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body ng-app="CPSCards">
+    <!--<p> $root.data :: <span ng-bind="$root.data"></span></p>-->
+    <div data-ng-controller="SampleController as ctrl">
+        <!--{{ctrl.name}} {{ctrl.fromRoot}} {{$root.fromRoot}}-->
+    </div>
+    <div data-ng-controller="SampleControllerOne as ctrl">
+        <!--<p> $root.fromRoot :: <span ng-bind="$root.fromRoot"></span></p>-->
+    </div>
+    <div data-ng-controller="formController as myForm">
+        <!--<p> $root.fromRoot :: <span ng-bind="$root.fromRoot"></span></p>-->
+        Name: <input type="text" ng-model="myForm.name" />
+        <button data-ng-click="myForm.setDefaultName()">Short Name</button>
+        <br/> <br/> {{myForm.name}}
+        <br/> <br/><span ng-bind="myForm.name"></span>
+        <br/> <br/>{{::myForm.name}}
+    </div>
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="./sample.ctr.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>View All Cards</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body ng-app="CPSCards">
+    <div data-ng-controller="cardsController as cards">
+        <h1 ng-bind="cards.card.title"></h1>
+        <img ng-src="{{cards.card.cardart}}"/>
+        <span ng-bind="cards.card.offer"></span>
+        <span ng-bind="cards.card.desc"></span>
+        <span ng-bind="cards.card.fee"></span>
+    </div>
+    <script src="./node_modules/angular/angular.min.js"></script>
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/cardsController.ctrl.js"></script>
+</body>
+
+</html>

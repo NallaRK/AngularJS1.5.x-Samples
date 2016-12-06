@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Controller Scope</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body ng-app="myapp">
+    <div ng-controller="myController">
+        {{data.time}}
+        <br/>
+        <button ng-click="updateTime()">update time - ng-click</button>
+        <button id="updateTimeButton">update time</button>
+    </div>
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="./sample.ctr.js"></script>
+</body>
+
+</html>
