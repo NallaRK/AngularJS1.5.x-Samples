@@ -1,10 +1,10 @@
 (function () {
     'use strict';
 
-// angular.module('CPSCards', ['ngMaterial','CPSCards.controllers','CPSCards.directives']);
+ angular.module('CPSCards', ['ngMaterial','CPSCards.controllers','CPSCards.directives']);
 
 //index.html -no ngMaterial
-  angular.module('CPSCards', ['CPSCards.controllers','CPSCards.directives']);
+//  angular.module('CPSCards', ['CPSCards.controllers','CPSCards.directives']);
 
     //Your app controller -- define here. 
     angular.module('CPSCards.controllers', []);

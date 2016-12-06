@@ -12,8 +12,8 @@ var myController1 = module.controller("myController", function ($scope) {
     document.getElementById("updateTimeButton")
         .addEventListener('click', function () {
             console.log("update time clicked");
-            $scope.data.time = new Date();
-
+           $scope.data.time = new Date();
+           $scope.$digest();
 
 
 

@@ -10,11 +10,13 @@
 
 <body ng-app="CPSCards">
     <div data-ng-controller="cardsController as cards">
-        <h1 ng-bind="cards.card.title"></h1>
-        <img ng-src="{{cards.card.cardart}}"/>
-        <span ng-bind="cards.card.offer"></span>
-        <span ng-bind="cards.card.desc"></span>
-        <span ng-bind="cards.card.fee"></span>
+        <div ng-repeat="card in cards.list">
+            <h1 ng-bind="card.title"></h1>
+            <img ng-src="{{card.cardart}}" />
+            <span ng-bind="card.offer"></span>
+            <span ng-bind="card.desc"></span>
+            <span ng-bind="card.fee"></span>
+        </div>
     </div>
     <script src="./node_modules/angular/angular.min.js"></script>
     <script src="./scripts/app.js"></script>

@@ -9,6 +9,7 @@
     SampleController.$inject = ['$rootScope', '$scope'];
 
     function SampleController($rootScope, $scope) {
+        
         console.warn("SampleController instantiated");
         var vm = this;
 
@@ -23,9 +24,12 @@
 
             $scope.$watch(function () {
                 return $rootScope.fromRoot
+
             }, function (value) {
+
                 vm.fromRoot = $rootScope.fromRoot;
                 $scope.fromRoot = $rootScope.fromRoot;
+                
             });
 
 
