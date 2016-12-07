@@ -1,5 +1,5 @@
 [{
-        "title": "Gold Delta SkyMiles® Credit Card",
+        "title": "My SkyMiles® Credit Card",
         "cardart": "./images/CardArts/GoldDeltaSkyMiles.png",
         "offer": "Earn 30,000 Bonus Miles",
         "desc": "after spending $1,000 in purchases on your new Card in your first 3 months and a $50 statement credit after you make a Delta purchase with your new Card within your first 3 months.†",
@@ -9,7 +9,7 @@
     },
 
     {
-        "title": "Platinum Card® from American Express",
+        "title": "My Platinum Cards",
         "cardart": "./images/CardArts/PlentiCard.png",
         "offer": "Earn 40,000 Points†",
         "desc": "Earn 40,000 points after you spend $3,000 on purchases on your new Card in your first 3 months of Card Membership. Terms and limitations apply.†",
@@ -20,7 +20,7 @@
     },
 
     {
-        "title": "Premier Rewards Gold Card from American Express",
+        "title": "THe First Premium Gold Card",
         "cardart":"./images/CardArts/GoldCard.png",
         "offer": "Earn 25,000 Points†",
         "desc": "after you spend $2,000 on purchases on your new Card in your first 3 months of Card Membership.†",
@@ -28,7 +28,7 @@
         "category": ["Charge Cards", "Rewards Points", "Travel Rewards"]
 
     }, {
-        "title": "Amex EveryDay® Preferred Credit Card",
+        "title": "Your EveryDay Card",
         "cardart":"./images/CardArts/AmexEveryDay.png",
         "offer": "Earn 15,000 Membership Rewards® Points",
         "desc": "after you use your new Card to make $1,000 on purchases on your new Card in your first 3 months.†",
@@ -36,7 +36,7 @@
         "category": ["Credit Cards", "Rewards Points"]
 
     }, {
-        "title": "Blue Sky from American Express® Card",
+        "title": "Fly Miles with Blue",
         "cardart":"./images/CardArts/BlueSky.png",
         "offer": "Flexible Travel Rewards and no annual fee.‡",
         "desc": "",
@@ -44,21 +44,21 @@
         "category": ["Credit Cards"]
 
     }, {
-        "title": "Gold Card from American Express",
+        "title": "Spend Gold Card",
         "cardart":"./images/CardArts/GoldCard.png",
         "offer": "Earn 2X Membership Rewards® Points‡ and Personalized Travel Service‡",
         "desc": "",
         "fee": "$0 intro annual fee for the first year of Card Membership, then $160.†¤",
         "category": ["Charge Cards", "Travel Rewards", "Rewards Points"]
     }, {
-        "title": "The Mercedes-Benz Credit Card from American Express",
+        "title": "The MBC from Credit Card",
         "cardart":"./images/CardArts/MercedesBenz.png",
         "offer": "10,000 Membership Rewards® Points†",
         "desc": "Earn 10,000 Membership Rewards® points after you use your new Card to make $1,000 in purchases within the first 3 months.†",
         "fee": "$95¤",
         "category": ["Partner Cards", "Rewards Points"]
     }, {
-        "title": "Serve® from American Express",
+        "title": "Prepaid for you",
         "cardart":"./images/CardArts/Serve.png",
         "offer": "YOUR PREPAID DEBIT ACCOUNT",
         "desc": "No credit check, no minimum balance, and no hidden fees.",
